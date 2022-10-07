@@ -1,10 +1,13 @@
-import {Header, Container, Footer } from "./components/index"
+import {Header, Container, Footer, Hero } from "./components/index"
 
 const App = () => {
   return (
     <>
       <Header/>
-      <Container/>
+      <Container>
+        <Hero/>
+
+      </Container>
       <Footer/>
     
 
