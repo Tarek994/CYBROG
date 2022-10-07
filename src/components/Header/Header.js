@@ -4,27 +4,27 @@ import "./Header.css"
 
 const Header = () => {
     return (
-      <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
-      <div class="container">
-          <a href="x" class="navbar-brand">
-            
+      <div className="navbar navbar-expand-md bg-dark navbar-dark ">
+      <div className="container">
+          <a href="x" className="navbar-brand">
+            <img src={logo} alt=""/>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
-              <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+              <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="mainmenu">
-              <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
-                  <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                  <li class="nav-item dropdown">
-                      <a href="x" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
-                      <ul class="dropdown-menu">
-                          <li><a href="#learn" class="dropdown-item">Learn Bootstrap</a></li>
-                          <li><a href="#next" class="dropdown-item">Where to go next</a></li>
+          <div className="collapse navbar-collapse" id="mainmenu">
+              <ul className="navbar-nav ms-auto">
+                  <li className="nav-item"><a href="#hero" className="nav-link">Home</a></li>
+                  <li className="nav-item"><a href="#features" className="nav-link">Browse</a></li>
+                  <li className="nav-item dropdown">
+                      <a href="x" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+                      <ul className="dropdown-menu">
+                          <li><a href="#learn" className="dropdown-item">Fortnite</a></li>
+                          <li><a href="#next" className="dropdown-item">Call Of Duty</a></li>
                       </ul>
                   </li>
-                  <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a></li>
-                  <li class="nav-item"><a href="./index-ar.html" class="nav-link">عربي</a></li>
+                  <li className="nav-item"><a href="#faq" className="nav-link">Streams</a></li>
+                  <li className="nav-item"><a href="./index-ar.html" className="nav-link">Profile</a></li>
               </ul>
           </div>
       </div>
