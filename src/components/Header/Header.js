@@ -22,21 +22,24 @@ const Header = () => {
                   <a href="#features" className="nav-link">Browse</a>
                   </NavItem> 
                   <NavItemDropDown>
-                  <li className="nav-item dropdown">
+                  <div className="nav-item dropdown">
                       <a href="x" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
                       <ul className="dropdown-menu">
-                          <li><a href="#learn" className="dropdown-item">Fortnite</a></li>
-                          <li><a href="#next" className="dropdown-item">Call Of Duty</a></li>
+                          <a href="#learn" className="dropdown-item">Fortnite</a>
+                          <a href="#next" className="dropdown-item">Call Of Duty</a>
                       </ul>
-                  </li>
+                  </div>
                  
                   </NavItemDropDown> 
+
                   <NavItem>
                   <a href="#faq" className="nav-link">Streams</a>
                   </NavItem>
+
                   <NavItem>
                   <a href="./index-ar.html" className="nav-link">Profile</a>
                   </NavItem>
+
               </ul>
           </div>
       </div>
