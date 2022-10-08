@@ -5,7 +5,7 @@ import "./Header.css"
 import NavItem, {NavItemDropDown} from "../Navitem/NavItem"; 
 const Header = () => {
     return (
-      <div className="navbar navbar-expand-md bg-dark navbar-dark ">
+      <div className="navbar navbar-expand-md navbar-dark cybrog-navbar">
       <div className="container">
           <a href="x" className="navbar-brand">
             <img src={logo} alt=""/>
