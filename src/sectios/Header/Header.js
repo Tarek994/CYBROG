@@ -1,8 +1,8 @@
 
-import logo from "../../components/assets/images/logo.png"
+import logo  from "../../assets/images/logo.png"
 import "./Header.css"
 
-import NavItem, {NavItemDropDown} from "../Navitem/NavItem"; 
+import NavItem, {NavItemDropDown} from "../../components/Navitem/NavItem"; 
 const Header = () => {
     return (
       <div className="navbar navbar-expand-md navbar-dark cybrog-navbar">
