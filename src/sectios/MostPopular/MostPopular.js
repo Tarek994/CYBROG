@@ -22,7 +22,7 @@ const MostPopular = () => {
                             <span>Sandbox</span>
                         </h4>
                         <ul>
-                            <li><span>4.9</span></li>
+                            <li><span>4.8</span></li>
                             <li><span>2.3</span></li>
 
                         </ul>
