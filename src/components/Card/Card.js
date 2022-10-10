@@ -1,6 +1,6 @@
 import "./Card.css"
 import popular_01 from "../../assets/images/popular-01.jpg"
-
+import { FaStar,FaDownload } from "react-icons/fa";
 
 const Card = (props) => {
   return (
@@ -13,8 +13,8 @@ const Card = (props) => {
                 <span>{props.category}</span>
             </h4>
             <ul>
-                <li><span>{props.rate}</span></li>
-                <li><span>{props.download}</span></li>
+                <li><span style={{"color":"var(--color-icons)" }}><FaStar/></span> <span>{props.rate}</span></li>
+                <li><span style={{"color":"green" }}><FaDownload/></span> <span>{props.download}</span></li>
 
             </ul>
         </div>
