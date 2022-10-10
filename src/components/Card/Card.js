@@ -1,5 +1,4 @@
 import "./Card.css"
-import popular_01 from "../../assets/images/popular-01.jpg"
 import { FaStar,FaDownload } from "react-icons/fa";
 
 const Card = (props) => {
