@@ -1,5 +1,5 @@
 import "./MostPopular.css"
-import {Card ,SectionHeader} from "../../components/index"
+import {Card ,SectionHeader,SectionWrapper} from "../../components/index"
 
 import popular_01 from "../../assets/images/popular-01.jpg"
 import popular_02 from "../../assets/images/popular-02.jpg"
@@ -15,7 +15,7 @@ import popular_08 from "../../assets/images/popular-08.jpg"
 const MostPopular = () => {
   return (
     <>
-    <div className="section-wrapper">
+    <SectionWrapper>
 
        <SectionHeader>Most Popular</SectionHeader>
 
@@ -29,12 +29,8 @@ const MostPopular = () => {
             <Card image={popular_06} title="Pubg"       category="Stream-x"   rate="4.8"  download="1.1M"/>
             <Card image={popular_07} title="Dota2"      category="Legendary"  rate="2.7"  download="5.3M"/>
             <Card image={popular_08} title="Cs-Go "     category="Battle S"   rate="3.9"  download="6.1M"/>
-            
-
-           
         </div>
-
-    </div>
+        </SectionWrapper>
     
     </>
   )
