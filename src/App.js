@@ -1,6 +1,6 @@
 import "./App.css"
 import { Container} from "./components/index";
-import { Header, Footer, MostPopular ,Hero } from "./sectios/index";
+import { Header, Footer, MostPopular ,Hero } from "./sections/index";
 
 
 const App = () => {
