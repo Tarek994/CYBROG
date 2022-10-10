@@ -8,14 +8,14 @@ import popular_07 from "../assets/images/popular-07.jpg"
 import popular_08 from "../assets/images/popular-08.jpg"
 
 const MostPopularData = [
-    {id:"most_popular_item_0", image: popular_01, title: "Fortnite", category: "Sandbox", rate:"3.8",download:"2.2" },
-    {id:"most_popular_item_1", image: popular_02, title: "Pubg", category: "Stream-x", rate:"4.8",download:"2.2" },
-    {id:"most_popular_item_2", image: popular_03, title: "Cs-Go", category: "Legandary", rate:"3.8",download:"2.2" },
-    {id:"most_popular_item_3", image: popular_04, title: "Dota2", category: "Battle s", rate:"5.8",download:"2.2" },
-    {id:"most_popular_item_4", image: popular_05, title: "Pubg", category: "Stream-x", rate:"3.8",download:"2.2" },
-    {id:"most_popular_item_5", image: popular_06, title: "Cs-go", category: "Legandary", rate:"4.8",download:"2.2" },
-    {id:"most_popular_item_6", image: popular_07, title: "Dota2", category: "Battle s", rate:"5.8",download:"2.2" },
-    {id:"most_popular_item_7", image: popular_08, title: "Fortnite", category: "Sandbox", rate:"3.8",download:"2.2" }
+    {id:"most_popular_item_0", image: popular_01, title: "Fortnite", category: "Sandbox", rate:"3.8",download:"2.2M" },
+    {id:"most_popular_item_1", image: popular_02, title: "Pubg", category: "Stream-x", rate:"4.8",download:"3.2M"},
+    {id:"most_popular_item_2", image: popular_03, title: "Cs-Go", category: "Legandary", rate:"3.8",download:"2.2M" },
+    {id:"most_popular_item_3", image: popular_04, title: "Dota2", category: "Battle s", rate:"5.8",download:"4.2M" },
+    {id:"most_popular_item_4", image: popular_05, title: "Pubg", category: "Stream-x", rate:"3.8",download:"1.2M" },
+    {id:"most_popular_item_5", image: popular_06, title: "Cs-go", category: "Legandary", rate:"4.8",download:"4.2M" },
+    {id:"most_popular_item_6", image: popular_07, title: "Dota2", category: "Battle s", rate:"5.8",download:"1.2M" },
+    {id:"most_popular_item_7", image: popular_08, title: "Fortnite", category: "Sandbox", rate:"3.8",download:"3.2M" }
 
 
 ]

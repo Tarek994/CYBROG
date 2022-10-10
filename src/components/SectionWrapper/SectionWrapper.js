@@ -8,4 +8,4 @@ function SectionWrapper(props) {
   )
 }
 
-export default SectionWrapper
+export default SectionWrapper;
