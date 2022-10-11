@@ -1,9 +1,16 @@
 import "./Buttons.css"
 
-const Buttons = () => {
+const PrimaryButton = (props) => {
   return (
-    <div>Buttons</div>
+    <div>{props.children}</div>
   )
 }
 
-export default Buttons
+const SecondaryButton = (props) => {
+    return (
+      <div>{props.children}</div>
+    )
+  }
+
+export default PrimaryButton
+export {SecondaryButton}
