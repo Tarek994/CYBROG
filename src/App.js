@@ -1,5 +1,5 @@
 import "./App.css"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import { Container} from "./components/index";
 import { Header, Footer } from "./sections/index";
 import {Home,Profile} from "./Pages/index"
@@ -8,12 +8,17 @@ import {Home,Profile} from "./Pages/index"
 const App = () => {
   return (
     <>
-      <Header/>
-      <Container>
-        <Home/>
-        <Profile/>
-      </Container>
-      <Footer/>
+      <Router>
+            <Header/>
+            <Container>
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/profile" element={<Profile/>}/>
+
+            </Routes>
+            </Container>
+          <Footer/>
+      </Router>
     
 
     </>
