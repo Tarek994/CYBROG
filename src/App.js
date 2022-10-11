@@ -1,6 +1,8 @@
 import "./App.css"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
 import { Container} from "./components/index";
-import { Header,Hero , MostPopular ,GamingLibrary, Footer } from "./sections/index";
+import { Header, Footer } from "./sections/index";
+import {Home,Profile} from "./Pages/index"
 
 
 const App = () => {
@@ -8,10 +10,8 @@ const App = () => {
     <>
       <Header/>
       <Container>
-        <Hero/>
-        <MostPopular/>
-        <GamingLibrary/>
-
+        <Home/>
+        <Profile/>
       </Container>
       <Footer/>
     
