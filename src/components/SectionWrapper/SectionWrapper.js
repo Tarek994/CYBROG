@@ -1,6 +1,6 @@
 import "./SectionWrapper.css"
 
-function SectionWrapper(props) {
+const SectionWrapper = (props) => {
   return (
     <div className="section-wrapper">
         {props.children}
