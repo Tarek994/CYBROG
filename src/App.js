@@ -1,10 +1,27 @@
+import "./App.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
+import { Container} from "./components/index";
+import { Header, Footer } from "./sections/index";
+import {Home,Profile} from "./Pages/index"
 
-function App() {
+
+const App = () => {
   return (
-    <div>
-      <h1>hello world</h1>
+    <>
+      <Router>
+            <Header/>
+            <Container>
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/profile" element={<Profile/>}/>
 
-    </div>
+            </Routes>
+            </Container>
+          <Footer/>
+      </Router>
+    
+
+    </>
   );
 }
 
