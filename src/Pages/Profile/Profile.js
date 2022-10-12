@@ -1,6 +1,6 @@
 import "./Profile.css"
 
-import {Hero ,MostPopular, GamingLibrary} from "../../sections/index"
+import {MostPopular} from "../../sections/index"
 
 const Profile = () => {
   return (
