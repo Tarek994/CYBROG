@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CYBROG/static/css/main.23eeeb91.css",
+    "main.js": "/CYBROG/static/js/main.79bee718.js",
+    "static/js/787.d5f00779.chunk.js": "/CYBROG/static/js/787.d5f00779.chunk.js",
+    "static/media/banner-bg.jpg": "/CYBROG/static/media/banner-bg.f41cb78948354a14694e.jpg",
+    "static/media/popular-05.jpg": "/CYBROG/static/media/popular-05.fb754b91636cbce130d6.jpg",
+    "static/media/popular-06.jpg": "/CYBROG/static/media/popular-06.193c1358cf48df9af86f.jpg",
+    "static/media/popular-08.jpg": "/CYBROG/static/media/popular-08.126dd98013f11709e815.jpg",
+    "static/media/popular-02.jpg": "/CYBROG/static/media/popular-02.4ccab5053dc3ac9400fb.jpg",
+    "static/media/popular-01.jpg": "/CYBROG/static/media/popular-01.d591ee7091c3349e3472.jpg",
+    "static/media/popular-04.jpg": "/CYBROG/static/media/popular-04.b68fb4322ccb2976873d.jpg",
+    "static/media/popular-07.jpg": "/CYBROG/static/media/popular-07.bbef6817bf6ac3dcdb80.jpg",
+    "static/media/popular-03.jpg": "/CYBROG/static/media/popular-03.1c8955f99df2b3b94391.jpg",
+    "index.html": "/CYBROG/index.html",
+    "main.23eeeb91.css.map": "/CYBROG/static/css/main.23eeeb91.css.map",
+    "main.79bee718.js.map": "/CYBROG/static/js/main.79bee718.js.map",
+    "787.d5f00779.chunk.js.map": "/CYBROG/static/js/787.d5f00779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23eeeb91.css",
+    "static/js/main.79bee718.js"
+  ]
+}
