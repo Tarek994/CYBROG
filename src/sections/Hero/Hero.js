@@ -10,10 +10,6 @@ function Hero() {
             
             <PrimaryButton> Browse Now</PrimaryButton>
 
-            {/* <div className="main-button"> 
-            <a href="browse.html">Browse Now</a>
-
-            </div> */}
         </div>
     </div>
   )
