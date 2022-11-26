@@ -21,23 +21,21 @@ const Header = () => {
                 <NavItem>
                   <Link to="/" className="nav-link">Home</Link>
                 </NavItem>  
-                <NavItem>
+                {/* <NavItem>
                   <a href="/#" className="nav-link">Browse</a>
-                  </NavItem> 
+                  </NavItem>  */}
                   <NavItemDropDown>
-                  <div className="nav-item dropdown">
+                  {/* <div className="nav-item dropdown">
                       <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
                       <ul className="dropdown-menu">
                           <a href="/#" className="dropdown-item">Fortnite</a>
                           <a href="/#" className="dropdown-item">Call Of Duty</a>
                       </ul>
-                  </div>
+                  </div> */}
                  
                   </NavItemDropDown> 
 
-                  <NavItem>
-                  <a href="/#" className="nav-link">Streams</a>
-                  </NavItem>
+                  
 
                   <NavItem>
                   <Link to="/profile" className="nav-link">Profile </Link>
