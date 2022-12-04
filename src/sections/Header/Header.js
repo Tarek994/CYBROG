@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 import logo  from "../../assets/images/logo.png"
 import "./Header.css"
-import NavItem, {NavItemDropDown} from "../../components/NavItem/NavItem"; 
-
+import NavItem from "../../components/NavItem/NavItem"; 
 
 const Header = () => {
     return (
