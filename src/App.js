@@ -15,8 +15,8 @@ const App = () => {
             <Header/>
             <Container>
             <Routes>
-              <Route path="/" element={<Home/>}/>
-              <Route path="/profile" element={<Profile/>}/>
+              <Route path="/CYBROG/" element={<Home/>}/>
+              <Route path="/CYBROG/profile" element={<Profile/>}/>
 
             </Routes>
             </Container>
