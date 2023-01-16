@@ -3,5 +3,12 @@
     border-radius: var(--border-radius-primary);
     padding: var(--padding-primary);
     margin-top: var(--margin-primary);
+    
 
+}
+
+@media (max-width: 320px){
+    .section-wrapper{
+        padding: var(--padding-primary)/8;
+    }
 }
