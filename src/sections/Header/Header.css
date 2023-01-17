@@ -1,4 +1,23 @@
 
 .cybrog-navbar {
+    
     min-height: 100px;
+    background-color:var(--color-dark);
+    color:var(--color-light);
+    
+}
+.main-cybrog{
+    max-width: 1300px;
+    padding: 10px;
+}
+
+.navigation {
+    color:var(--color-primary) ;
+    padding: 12px;
+}
+.navigation:hover{
+    color:var(--color-primary) ;
+}
+.sidebar{
+    color: var(--color-dark);
 }
