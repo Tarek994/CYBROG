@@ -18,9 +18,9 @@ const Header = () => {
       {['sm'].map((expand) => (
         <Navbar key={expand}  expand={expand} className="mb-3 cybrog-navbar">
           <Container className="main-cybrog" fluid>
-            <Navbar.Brand href="#">
+            <Link to="/CYBROG">
               <img src={logo} alt=""/>
-            </Navbar.Brand>
+            </Link>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}/>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
