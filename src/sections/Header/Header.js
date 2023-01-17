@@ -1,50 +1,48 @@
 import { Link } from "react-router-dom";
+import logo  from "../../assets/images/logo.png";
+import "./Header.css";
+import NavItem from "../../components/NavItem/NavItem";
 
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import logo  from "../../assets/images/logo.png"
-import "./Header.css"
-import NavItem from "../../components/NavItem/NavItem"; 
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Header = () => {
     return (
-      <div className="navbar navbar-expand-md navbar-dark cybrog-navbar">
-      <div className="container">
-          <Link to="/" className="navbar-brand">
-            <img src={logo} alt=""/>
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
-              <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="mainmenu">
-              <ul className="navbar-nav ms-auto">
-                <NavItem>
-                  <Link to="/CYBROG" className="nav-link">Home</Link>
-                </NavItem>  
-                {/* {/* <NavItem>
-                  <a href="/#" className="nav-link">Browse</a>
-                  </NavItem>  
-                  <NavItemDropDown>*/}
-                  {/* <div className="nav-item dropdown">
-                      <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
-                      <ul className="dropdown-menu">
-                          <a href="/#" className="dropdown-item">Fortnite</a>
-                          <a href="/#" className="dropdown-item">Call Of Duty</a>
-                      </ul>
-                  </div> 
-                 
-                  </NavItemDropDown>  */}
-
-                  
-
-                  <NavItem>
-                  <Link to="/profile" className="nav-link">Profile </Link>
-                  
-                  </NavItem>
-
-              </ul>
-          </div>
-      </div>
-  </div>
+      <>
+      {['sm'].map((expand) => (
+        <Navbar key={expand}  expand={expand} className="mb-3 cybrog-navbar">
+          <Container className="main-cybrog" fluid>
+            <Navbar.Brand href="#">
+              <img src={logo} alt=""/>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}/>
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title  id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  CY-BROG
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Link className="navigation" to="/CYBROG">Home</Link>
+                <Link className="navigation" to="/profile">Profile</Link>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
+    </>
     );
   }
   
