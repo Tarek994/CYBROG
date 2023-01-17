@@ -9,6 +9,9 @@
 
 @media (max-width: 320px){
     .section-wrapper{
-        padding: var(--padding-primary)/8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: var(--padding-primary);
     }
 }
