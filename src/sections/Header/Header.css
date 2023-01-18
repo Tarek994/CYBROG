@@ -1,23 +1,27 @@
 
 .cybrog-navbar {
-    
+    margin-bottom: 1rem;
     min-height: 100px;
     background-color:var(--color-dark);
     color:var(--color-light);
     
 }
-.main-cybrog{
-    max-width: 1300px;
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
 }
 
-.navigation {
-    color:var(--color-primary) ;
-    padding: 12px;
+.white-text{
+    background-color: var(--color-light);
+    
 }
+.navigation{
+    color: var(--color-light);
+    padding: 10px;
+    margin: 0px 5px;
+}
+
 .navigation:hover{
     color:var(--color-primary) ;
-}
-.sidebar{
-    color: var(--color-dark);
 }
