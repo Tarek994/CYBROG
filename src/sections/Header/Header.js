@@ -1,50 +1,31 @@
 import { Link } from "react-router-dom";
+import logo  from "../../assets/images/logo.png";
+import "./Header.css";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-
-import logo  from "../../assets/images/logo.png"
-import "./Header.css"
-import NavItem from "../../components/NavItem/NavItem"; 
 
 const Header = () => {
     return (
-      <div className="navbar navbar-expand-md navbar-dark cybrog-navbar">
-      <div className="container">
-          <Link to="/" className="navbar-brand">
-            <img src={logo} alt=""/>
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
-              <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="mainmenu">
-              <ul className="navbar-nav ms-auto">
-                <NavItem>
-                  <Link to="/CYBROG" className="nav-link">Home</Link>
-                </NavItem>  
-                {/* {/* <NavItem>
-                  <a href="/#" className="nav-link">Browse</a>
-                  </NavItem>  
-                  <NavItemDropDown>*/}
-                  {/* <div className="nav-item dropdown">
-                      <a href="/#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
-                      <ul className="dropdown-menu">
-                          <a href="/#" className="dropdown-item">Fortnite</a>
-                          <a href="/#" className="dropdown-item">Call Of Duty</a>
-                      </ul>
-                  </div> 
-                 
-                  </NavItemDropDown>  */}
-
-                  
-
-                  <NavItem>
-                  <Link to="/profile" className="nav-link">Profile </Link>
-                  
-                  </NavItem>
-
-              </ul>
-          </div>
-      </div>
-  </div>
+      <Navbar className="cybrog-navbar" expand="md">
+      <Container className="main-navbar">
+        <div >
+          <Link to="/CYBROG">
+          <img src={logo} alt=""/>
+        </Link>
+        </div>
+        <div>
+        <Navbar.Toggle className="white-text" aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse  id="basic-navbar-nav">
+          <Nav className="me-auto ">
+            <Link className="navigation"  to="/CYBROG">Home</Link>
+            <Link className="navigation"  to="/profile">Library</Link>
+          </Nav>
+        </Navbar.Collapse>
+        </div>
+      </Container>
+    </Navbar>
     );
   }
   

@@ -1,12 +1,14 @@
 .most-popular-item{
     flex: 1 25%;
+
 }
 
 .card-wrapper {
     background-color: var(--color-dark);
     border-radius: var(--border-radius-secondary);
-    padding: calc(var(--padding-primary)/2 );
+    padding: calc(var(--padding-primary)/4 );
     margin: calc(var(--margin-primary)/5);
+    text-align: center;
 }
 
 .most-popular-item-img{
@@ -24,4 +26,12 @@
 .most-popular-item-title {
     font-size: 14px;
     line-height: 1.5rem;
+}
+
+
+@media (max-width: 400px){
+   
+    .card-wrapper{
+        
+    }
 }

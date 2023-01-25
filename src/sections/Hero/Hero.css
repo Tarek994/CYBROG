@@ -36,8 +36,9 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 350px){
     .hero-title{
         font-size: 20px;
     }
+    
 }
